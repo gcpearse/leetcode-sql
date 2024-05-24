@@ -19,8 +19,8 @@ VALUES
   (4, 'Max', 90000, NULL);
 
 SELECT employee_1.name AS employee
-FROM employee employee_1
-INNER JOIN employee employee_2
+FROM employee AS employee_1
+INNER JOIN employee AS employee_2
 ON employee_1.managerId = employee_2.id
 WHERE employee_1.salary > employee_2.salary;
 
