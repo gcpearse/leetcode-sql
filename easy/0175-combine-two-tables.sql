@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS leetcode_0175;
-CREATE DATABASE leetcode_0175;
+DROP DATABASE IF EXISTS leetcode;
+CREATE DATABASE leetcode;
 
-\c leetcode_0175;
+\c leetcode;
 
 CREATE TABLE person (
   personId INT, 
@@ -35,6 +35,6 @@ ON person.personId = address.personId;
 
 \c postgres
 
-DROP DATABASE leetcode_0175;
+DROP DATABASE leetcode;
 
 \q

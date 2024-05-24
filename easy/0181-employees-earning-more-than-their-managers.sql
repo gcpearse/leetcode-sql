@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS leetcode_0181;
-CREATE DATABASE leetcode_0181;
+DROP DATABASE IF EXISTS leetcode;
+CREATE DATABASE leetcode;
 
-\c leetcode_0181;
+\c leetcode;
 
 CREATE TABLE employee (
   id INT,
@@ -26,6 +26,6 @@ WHERE employee_1.salary > employee_2.salary;
 
 \c postgres
 
-DROP DATABASE leetcode_0181;
+DROP DATABASE leetcode;
 
 \q
