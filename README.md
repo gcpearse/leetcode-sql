@@ -1,1 +1,5 @@
-# leetcode-sql
+# LeetCode - SQL
+
+## Overview
+
+Solutions to Leetcode database problems.
