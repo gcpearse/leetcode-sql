@@ -3,20 +3,20 @@ CREATE DATABASE leetcode_0175;
 
 \c leetcode_0175;
 
-CREATE TABLE Person (
+CREATE TABLE person (
   personId INT, 
   firstName VARCHAR(255), 
   lastName VARCHAR(255)
 );
 
-CREATE TABLE Address (
+CREATE TABLE address (
   addressId INT,
   personId INT,
   city VARCHAR(255),
   state VARCHAR(255)
 );
 
-INSERT INTO Person 
+INSERT INTO person 
   (personId, lastName, firstName)
 VALUES 
   (1, 'Wang', 'Allen'),
@@ -29,9 +29,9 @@ VALUES
   (2, 3, 'Leetcode', 'California');
 
 SELECT firstName, lastName, city, state
-FROM Person
+FROM person
 LEFT JOIN Address
-ON Person.personId = Address.personId;
+ON person.personId = address.personId;
 
 \c postgres
 
