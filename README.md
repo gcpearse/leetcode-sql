@@ -2,4 +2,4 @@
 
 ## Overview
 
-Solutions to Leetcode database problems.
+Solutions to Leetcode database problems using PostgreSQL.
