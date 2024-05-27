@@ -21,8 +21,6 @@ USING person AS person_2
 WHERE person_1.email = person_2.email
 AND person_1.id > person_2.id;
 
-SELECT * FROM person;
-
 \c postgres
 
 DROP DATABASE leetcode;
