@@ -28,3 +28,10 @@ WHERE weather_1.temperature > weather_2.temperature;
 DROP DATABASE leetcode;
 
 \q
+
+
+/*
+
+Write a solution to find the ID for any date with a higher temperature than the previous date.
+
+*/

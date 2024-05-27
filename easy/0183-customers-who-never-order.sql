@@ -38,3 +38,10 @@ WHERE orders.customerId IS NULL;
 DROP DATABASE leetcode;
 
 \q
+
+
+/*
+
+Write a solution to find all customers who never order anything.
+
+*/

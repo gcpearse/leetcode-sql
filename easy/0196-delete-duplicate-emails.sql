@@ -26,3 +26,10 @@ AND person_1.id > person_2.id;
 DROP DATABASE leetcode;
 
 \q
+
+
+/*
+
+Write a solution to delete all duplicate emails, keeping only one unique email with the smallest id.
+
+*/

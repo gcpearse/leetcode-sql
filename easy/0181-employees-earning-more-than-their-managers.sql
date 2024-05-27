@@ -29,3 +29,10 @@ WHERE employee_1.salary > employee_2.salary;
 DROP DATABASE leetcode;
 
 \q
+
+
+/*
+
+Write a solution to find the employees who earn more than their managers.
+
+*/
